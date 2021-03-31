@@ -1,0 +1,99 @@
+*{
+  font-family: 'Comfortaa', serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 10px;
+}
+body{
+  background-image: linear-gradient(45deg, rgb(247, 165, 59), white);
+  background-repeat: no-repeat;
+  background-size: cover; 
+  width: 1350px;
+  height: 655px;
+  margin: auto !important;
+  position: relative;
+  text-align: center;
+}
+.mainet{
+  margin: auto;
+}
+.drawon{
+  font-size: 2.4rem;
+  font-weight: bolder;
+}
+.inputs{
+  width: 1350px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 1rem;
+  background-image: linear-gradient(120deg,white, rgba(98, 211, 164, 0.699));
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.warnings-main{
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 50px gray;
+  padding: 2rem;
+}
+.values-main{
+  background-color: transparent;
+  padding:2rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+}
+.w{
+  background-color: rgb(255, 255, 255);
+  padding:2rem;
+}
+option, select{
+  font-size: 1.6rem;
+}
+select{
+  width: 100%;
+}
+.app{
+  background-color:  rgb(108, 169, 240);
+  color:rgb(255, 255, 255);
+  padding: .4rem;
+  border-radius: 4px;
+}
+.uyari{
+  text-align: center;
+  font-size: 1.6rem;
+  color: crimson;
+  margin: 0;
+  padding: 0;
+  font-weight: bolder;
+}
+.skip{
+  text-align: center;
+  font-size: 1.6rem;
+  color: limegreen;
+  margin: 0;
+  padding: 0;
+  font-weight: bolder;
+}
+.dot{
+  border-radius: 50%;
+  display: inline-block;
+}
+input[type="text"]{
+  font-size: 5rem;
+}
+
+@media (max-width: 1350px){
+  body{
+      background-image: unset;
+      background-color: rgba(255, 175, 1, 0.281) !important;
+  }
+}
